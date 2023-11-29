@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --charcoal: #111;
+    --blackcurrant: #1E1823;
+    --orangepeel: #FD9222;
+    --lightgray: #FAFAFA;
+}
+
+.container {
+    /* mobile */
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.advantage-section {
+    background-color: var(--charcoal);
+}
+
+.advantage-sec-svg {
+    border: var(--orangepeel)
+}
