@@ -79,7 +79,18 @@ body {
     flex-shrink: 0;
 }
 
-.adv-sec-list:hover,
-.adv-sec-list::after {
-    border-right: 1px solid #FFFFFF80;
+.adv-sec-list-with-line:hover {
+    position: relative;
+}
+
+.adv-sec-list-with-line::after {
+    content: '';
+    position: absolute;
+    top: 55%;
+    right: -18px;
+    transform: translateY(-50%);
+    height: 124px;
+    background-color: #FFFFFF80;
+    width: 1px;
+    transition: height 0.3s;
 }
