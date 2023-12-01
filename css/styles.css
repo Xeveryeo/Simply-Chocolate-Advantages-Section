@@ -30,6 +30,12 @@ body {
     }
 }
 
+.hidden-header {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
 .advantage-section {
     background-color: var(--charcoal);
     height: auto;
