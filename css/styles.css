@@ -39,7 +39,7 @@ body {
 
 .advantage-section {
     background-color: var(--charcoal);
-    height: auto;
+    background-size: cover;
     padding: 50px;
 }
 
