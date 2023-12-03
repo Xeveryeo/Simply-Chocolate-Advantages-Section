@@ -16,10 +16,9 @@ body {
 }
 
 .container {
-    /* mobile */
+    /* // mobile */
     margin: 0 auto;
 
-    
     @media screen and (min-width: 768px) {
         width: 768px;
         margin: 0 auto;
@@ -28,6 +27,12 @@ body {
     @media screen and (min-width: 1200px) {
         width: 1200px;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .adv-sec-list-with-line:after {
+        display: none;
     }
 }
 
@@ -43,9 +48,8 @@ body {
     padding: 50px;
 }
 
-.advantage-sec-list  {
+.advantage-sec-list {
     display: flex;
-    height: 244px;
     justify-content: center;
     align-items: flex-start;
     gap: 70px;
@@ -76,6 +80,7 @@ body {
     margin-top: 22px;
     margin-bottom: 18px;
 }
+
 .adv-sec-description {
     color: rgba(255, 255, 255, 0.70);
     font-size: 14px;
@@ -86,7 +91,7 @@ body {
     flex-shrink: 0;
 }
 
-.adv-sec-list-with-line:hover {
+.adv-sec-list-with-line {
     position: relative;
 }
 
