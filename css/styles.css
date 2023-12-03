@@ -93,6 +93,7 @@ body {
 
 .adv-sec-list-with-line {
     position: relative;
+    height: 242px;
 }
 
 .adv-sec-list-with-line::after {
@@ -100,7 +101,7 @@ body {
     position: absolute;
     top: 55%;
     right: -18px;
-    transform: translateY(-50%);
+    transform: translateY(-55%);
     height: 124px;
     background-color: #FFFFFF80;
     width: 1px;
